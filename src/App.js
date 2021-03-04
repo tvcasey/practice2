@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Table1 from "./Components/Table1";
-
+import MyTable from "./Components/Table1";
+import "@abcd19/st-grid/dist/index.css";
 
 function App() {
   return (
     <div className="App">
-      <Table1 />
+      {/*<MyTable />*/}
       Is there anybody out there?
     </div>
   );

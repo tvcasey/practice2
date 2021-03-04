@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Table1 from "./Components/Table1";
+import MyTable from "./Components/Table1";
+import "@abcd19/st-grid/dist/index.css";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +17,7 @@ ReactDOM.render(
 
 
 // const rootElement = document.getElementById("root");
-// ReactDOM.render(<Table1 />, rootElement);
+// ReactDOM.render(<MyTable />, rootElement);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
