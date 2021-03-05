@@ -21,4 +21,6 @@ Installed jquery --save…
 
 
 
-NPM installed @abcd19/st-grid.  These are some accounting forms that I'm going to play around with.  I'm going to bring in an API from Alpha Vantage.  Working with financial statements.  This is an offshoot of my Capstone Project.  
+NPM installed @abcd19/st-grid.  These are some accounting forms that I'm going to play around with.  I'm going to bring in an API from Alpha Vantage.  Working with financial statements.  This is an offshoot of my Capstone Project.
+
+--Having problems getting MyTable.jsx to work and it might be ES6 related.  The possible reasons for the SyntaxError: Cannot use import statement outside a module error is you are trying to run the file independently, you are yet to install and set up an Es6 compiler such as Babel or the path of the file in your runscript is wrong/not the compiled file.
