@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">      
           {/*<MyTable />*/}
-          Hello World
+          <p>HELLO WORLD</p>
     </div>
   );
 }
