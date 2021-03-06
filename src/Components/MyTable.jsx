@@ -8,7 +8,7 @@ import abcd19StGrid from './MyTable';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom';
 
-class MyTable extends React.Component {
+export default class MyTable extends React.Component {
   constructor(props) {
     super(props);
 
@@ -113,6 +113,6 @@ class MyTable extends React.Component {
   }
 }
 //module.exports = MyTable;
-export default MyTable;
+//export default MyTable;
 
  

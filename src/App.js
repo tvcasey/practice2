@@ -5,14 +5,16 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MyTable from "./Components/MyTable";
 import "@abcd19/st-grid/dist/index.css";
+import abcd19StGrid from './Components/MyTable';
 
-export default class App extends React.Component {
+function App() {
 
   return (
     <div className="App">      
-          <MyTable />
+          {/*<MyTable />*/}
+          Hello World
     </div>
   );
 }
-
+export default App;
 
