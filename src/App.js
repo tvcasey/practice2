@@ -6,12 +6,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Table from "./Table";
 import "@abcd19/st-grid/dist/index.css";
 //import abcd19StGrid from './Components/MyTable';
+import FiddleSticks from "./Components/FiddleSticks";
+import Ckbox from "./Components/Ckbox";
 
 function App() {
 
   return (
     <div className="App">      
-      <Table />
+      {/*<Table />*/}
+      <FiddleSticks/>
+    {/*/<Ckbox />*/}
           <p>HELLO WORLD</p>
     </div>
   );

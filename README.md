@@ -51,3 +51,7 @@ ACTIONS TO TAKE:
 1.  Check out the @abcd19st-grid code to determine what is needed for it to work.
 2.  Module.exports = MyTable; is not necessary.
 3.  Play around with the ROUTER in index.js.  Should we not use the <App/> or the <MyTable/>.
+
+3-7-21
+
+CALLING AN END TO THIS PROJECT.  THE NPM @abcd19st-grid has some specifics to make it work that I couldn't find.  The react works as I was taught, but the definition of the import @abcd19st-grid components were not working right.  I looked at the export default, but nothing there was wrong.  Also, the index.js file may have been the culprit.  I'm going to go forward and start another React project and find an npm that hopefully doesn't have a snag.  I made sure the React worked.  You'll find a button that I coded pretty much on my own.  Six months later things are making sense.  This is a lot of fun for me.
