@@ -8,6 +8,7 @@ import abcd19StGrid from './MyTable';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom';
 
+
 export default class MyTable extends React.Component {
   constructor(props) {
     super(props);
@@ -110,9 +111,12 @@ export default class MyTable extends React.Component {
         columns={this.state.columns}
       />
     );
-  }
 }
-//module.exports = MyTable;
-//export default MyTable;
 
+
+//module.exports = MyTable;
+ 
+  
+//export default MyTable;
+}
  

@@ -35,3 +35,19 @@ npm cache clean --force
 delete node_modules folder
 delete package-lock.json file
 npm install
+
+
+
+3-6-21
+
+Working ways around the problem as other bugs seem to come up.  Not getting a lot accomplished, but I am going to be good at debugging, which is an important skill.
+
+I think the accounting form from @abcd19st-grid needs more things downloaded into my project.  I may be missing other components.  As this is one of the first npm packages that I'm playing around with outside the bootcamp setting, I'm determined to see it in action.  So, I'm going to see if I have the right things downloaded.
+
+I deployed to github with a new branch.  Don't know how this really matters, but it made my localhost:3000 work.  For all afternoon it was a blank.
+
+ACTIONS TO TAKE:
+
+1.  Check out the @abcd19st-grid code to determine what is needed for it to work.
+2.  Module.exports = MyTable; is not necessary.
+3.  Play around with the ROUTER in index.js.  Should we not use the <App/> or the <MyTable/>.
