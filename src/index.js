@@ -3,19 +3,19 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import MyTable from "./Table";
 
-// const rootElement = document.getElementById("root");
-// ReactDOM.render(<MyTable />, rootElement);
+//  const rootElement = document.getElementById("root");
+//  ReactDOM.render(<MyTable />, rootElement);
 
 
 
 //import React from 'react';
 //import ReactDOM from 'react-dom';
 //import './index.css';
-//import App from './App';
-// import reportWebVitals from './reportWebVitals';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+// import App from './App';
+ import reportWebVitals from './reportWebVitals';
+ import 'bootstrap/dist/css/bootstrap.min.css';
 // import MyTable from "./Components/MyTable";
-// import "@abcd19/st-grid/dist/index.css";
+ import "@abcd19/st-grid/dist/index.css";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -26,8 +26,8 @@ ReactDOM.render(
 
 
 
-// const rootElement = document.getElementById("root");
-// ReactDOM.render(<MyTable />, rootElement);
+ const rootElement = document.getElementById("root");
+ ReactDOM.render(<MyTable />, rootElement);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

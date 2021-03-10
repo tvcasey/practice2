@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">      
-      {/*<Table />*/}
+      <Table />
       <FiddleSticks/>
     {/*/<Ckbox />*/}
           <p>HELLO WORLD</p>
